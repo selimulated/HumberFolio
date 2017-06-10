@@ -1,0 +1,15 @@
+/* Custom Fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* End of Fonts*/
+
+/* Font Usage Command*/
+/*
+font-family: 'Montserrat', sans-serif;
+*/
+/* End of Usage*/
+h1,h2,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+}
