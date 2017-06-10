@@ -25,13 +25,37 @@ h4 {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.5px;
 }
-
+#search {
+    background-color: #fff;
+    width: 230px;
+    margin: 2em 1.5em;
+    padding: 0 0.8em;
+}
 /* Sidebar style*/
-
+.logo{
+    max-width: 85%;
+    height: auto;
+    margin: 2em 1em 5em 1em;
+}
+.year {
+    color: #fff;
+    margin: 0 auto;
+    margin: 0 1em 4em 1em;
+}
  header, main, footer {
       padding-left: 300px;
     }
-
+.bar-color{
+    background-color: #73ddd9;
+    background-image:
+    linear-gradient(
+      #73ddd9, #50e8cf
+    );
+}
+.side-nav li a{     
+    text-transform: uppercase;
+    color: #fff;
+}
     @media only screen and (max-width : 992px) {
       header, main, footer {
         padding-left: 0;
