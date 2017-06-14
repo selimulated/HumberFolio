@@ -6,7 +6,7 @@ require_once "includes/header.php";
 ?>
 <body>
     <?php 
-    require_once "includes/logged_sidebar.php";
+    require_once "includes/loggedin_sidebar.php";
     ?>
     
     <main>
