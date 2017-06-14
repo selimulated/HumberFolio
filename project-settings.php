@@ -1,21 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Humber Student Folio</title>
-    <link rel="stylesheet" href="css/materialize.min.css">
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <link rel="stylesheet" href="css/project-settings.css">
-</head>
+<?php
+
+require_once "includes/header.php";
+
+
+?>
 <body>
-   <main>
-       <div class="row">
-        <div class="col s12 myProjectsForm__header">
-            <h2>Project X</h2>
-           </div>
-       </div>
-       
-        <div class="row" id="myProjectsForm__cont">
+    <?php 
+    require_once "includes/logged_sidebar.php";
+    ?>
+    
+    <main>
+    <div class="container">  
+        <div class="row">
+            
+            <!--CONTENT GOES IN HERE: Please use the Materialize grid system!-->
+    
+            <div class="col s12 myProjectsForm__header">
+                <h2>Project X</h2>
+            </div>
             
             <div class="col s12">
                 <form>
@@ -91,9 +93,13 @@
                     </div>
                 </form>    
             </div>
-       </div>
-    
-    
-    </main>
+            
+        </div>
+    </div> 
+    </main>    
 </body>
-</html>
+
+<?php
+
+require_once "includes/footer.php";
+?>

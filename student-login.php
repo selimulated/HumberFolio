@@ -1,13 +1,20 @@
-<?php 
+<?php
 
 require_once "includes/header.php";
 
-?>
 
+?>
 <body>
-   <main>
+    <?php 
+    require_once "includes/logged_sidebar.php";
+    ?>
+    
+    <main>
+    <div class="container">  
         <div class="row" id="acctSettForm__cont">
             
+            <!--CONTENT GOES IN HERE: Please use the Materialize grid system!-->
+    
             <div class="col s12">
             <form>              
                 
@@ -21,9 +28,13 @@ require_once "includes/header.php";
                 </div>
             </form>
             </div>
-       </div>
-    
-    
-    </main>
+            
+        </div>
+    </div> 
+    </main>    
 </body>
-</html>
+
+<?php
+
+require_once "includes/footer.php";
+?>
