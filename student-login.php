@@ -5,18 +5,15 @@ require_once "includes/header.php";
 
 ?>
 <body>
-    <?php 
-    require_once "includes/logged_sidebar.php";
-    ?>
     
-    <main>
+    <main id="loginPage__mainCont">
     <div class="container">  
         <div class="row" id="acctSettForm__cont">
             
             <!--CONTENT GOES IN HERE: Please use the Materialize grid system!-->
     
-            <div class="col s12">
-            <form>              
+            <div class="col s12" id="test">
+            <form id="loginPage__form">              
                 
                   <input id="studentLoginForm__emailField" type="text" placeholder="Email Address">
                 
