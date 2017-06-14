@@ -3,10 +3,19 @@
     <head>
         <meta charset="utf-8" />
         <title>Humber Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         
+         <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <!--Jquery-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        
+        <!--Materialize CSS & Javascript-->
         <link rel="stylesheet" href="./css/materialize.min.css">
         <script type="text/javascript" src="./js/materialize.min.js"></script>
         
+        <!--Own stylesheet-->
         <link rel="stylesheet" href="./css/styles.css">
         
     </head>
