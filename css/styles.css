@@ -99,7 +99,15 @@ border-top:1px solid #fff;
 .side-nav.fixed .collapsible-body {
     background-color: #73ddd9;
 }
-
+nav {
+    background-color: #73ddd9;
+    display: none;
+}
+#mobile-logo{
+    margin: 5px 1em;
+    max-width: 150px;
+    height: auto;
+}
 
 /* End of Sidebar style*/
 
@@ -385,6 +393,9 @@ border-top:1px solid #fff;
     main,
     footer {
         padding-left: 0 !important;
+    }
+     nav{
+        display: block;
     }
 }
 
