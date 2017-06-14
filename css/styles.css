@@ -76,3 +76,101 @@ border-top:1px solid #fff;
     background-color: #73ddd9;
 }
 /* End of Sidebar style*/
+
+/* Start of Login Page Style */
+
+form {
+    width: 50% !important;
+    margin: 0 auto !important;
+    
+}
+#studentLoginForm__promptLoginCont {
+    float: right;
+}
+
+#studentLoginForm__passwPrompt {
+    margin-right: 20px;
+}
+
+
+#acctSettForm__cont {
+    display: block;
+}
+
+/* End of Login Page Style */
+
+
+/* Start of Account Settings Style */
+
+.save {
+    float: right;
+}
+
+
+
+/* End of Account Settings Style */
+
+
+/* Start of My Projects Style*/
+
+.myProjectsForm {
+    width: 75% !important;
+    margin: 0 auto !important;
+    
+}
+
+
+.myProjectsForm__header {
+    text-align: center;
+}
+
+#studentLoginForm__promptLoginCont {
+    float: right;
+}
+
+#studentLoginForm__passwPrompt {
+    margin-right: 20px;
+}
+
+
+#acctSettForm__cont {
+    display: block;
+}
+
+.select {
+    display: inline;
+}
+
+.save {
+    float: right;
+}
+
+/* End of My Projects Style*/
+
+/* Start of Project Settings Style*/
+
+.myProjectsForm__header {
+    text-align: center;
+}
+
+#studentLoginForm__promptLoginCont {
+    float: right;
+}
+
+#studentLoginForm__passwPrompt {
+    margin-right: 20px;
+}
+
+#acctSettForm__cont {
+    display: block;
+}
+
+.select {
+    display: inline;
+}
+
+.save {
+    float: right;
+}
+
+/* End of Project Settings Style */

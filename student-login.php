@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Humber Student Folio</title>
-    <link rel="stylesheet" href="css/materialize.min.css">
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <link rel="stylesheet" href="css/student-login.css">
-</head>
+<?php 
+
+require_once "includes/header.php";
+
+?>
+
 <body>
    <main>
         <div class="row" id="acctSettForm__cont">
