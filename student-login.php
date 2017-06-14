@@ -8,12 +8,14 @@ require_once "includes/header.php";
     
     <main class="no-sidebar">
     <div class="container">  
-        <div class="row" id="acctSettForm__cont">
+        <div class="row" id="studentLoginPage__mainCont">
             
             <!--CONTENT GOES IN HERE: Please use the Materialize grid system!-->
-    
-            <div class="col s12" id="test">
-            <form id="loginPage__form">              
+            
+            <div class="col s12">
+                
+            <img src="img/humber-logo-webDevPortal.png" id="studentLoginPage__logo">    
+            <form id="studentLoginPage__form">              
                 
                   <input id="studentLoginForm__emailField" type="text" placeholder="Email Address">
                 

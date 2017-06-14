@@ -16,7 +16,12 @@
         <script type="text/javascript" src="../js/materialize.min.js"></script>
         <script type="text/javascript" src="../js/menu.js"></script>
         
+<<<<<<< HEAD
         <!--Own stylesheet-->
         <link rel="stylesheet" href="../css/styles.css">
+=======
+        <!--Own stylesheet & scripts-->
+        <link rel="stylesheet" href="./css/styles.css">
+>>>>>>> origin/master
         
     </head>
