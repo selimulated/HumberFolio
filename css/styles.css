@@ -111,9 +111,12 @@ border-top:1px solid #fff;
 }
 
 #loginPage__form {
-    width:50%;
+    width:75%;
+    margin: 0 auto;
     border: 1px solid orange;
 }
+
+#studentLoginForm__passwPrompt
 
 #test {
     border: 1px solid red;
