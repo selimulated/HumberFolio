@@ -12,10 +12,11 @@
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         
         <!--Materialize CSS & Javascript-->
-        <link rel="stylesheet" href="./css/materialize.min.css">
-        <script type="text/javascript" src="./js/materialize.min.js"></script>
+        <link rel="stylesheet" href="../css/materialize.min.css">
+        <script type="text/javascript" src="../js/materialize.min.js"></script>
+        <script type="text/javascript" src="../js/menu.js"></script>
         
         <!--Own stylesheet-->
-        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="../css/styles.css">
         
     </head>
