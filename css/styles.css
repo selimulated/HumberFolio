@@ -78,7 +78,6 @@ footer {
     border-bottom: 1px solid #fff;
     border-top: 1px solid #fff;
 }
-=======
 #slide-out {
     text-transform: uppercase;
     color: #fff;
@@ -86,7 +85,6 @@ footer {
 .side-nav li {
 border-bottom: 1px solid #fff;
 border-top:1px solid #fff;
->>>>>>> origin/master
 }
 
 .sidebar-footer {
@@ -101,11 +99,8 @@ border-top:1px solid #fff;
 .side-nav.fixed .collapsible-body {
     background-color: #73ddd9;
 }
-<<<<<<< HEAD
 
 
-/* End of Sidebar style*/
-=======
 /* End of Sidebar style*/
 
 /* Start of Login Page Style */
@@ -372,7 +367,6 @@ border-top:1px solid #fff;
     }
 
 /* end of Project Thumbnails */
->>>>>>> origin/master
 
 /* MEDIA QUERIES */
 
@@ -380,7 +374,7 @@ border-top:1px solid #fff;
     header,
     main,
     footer {
-        padding-left: 0;
+        padding-left: 0 !important;
     }
 }
 
