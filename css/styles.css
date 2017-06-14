@@ -16,9 +16,15 @@ font-family: 'Montserrat', sans-serif;
 /* End of Usage*/
 
 
+/* Genearl */
+
+  html {
+  }
+        
+
+
 /* Headers Font*/
 
-/* We need to add a media query reducing the left padding of "main" to 0px (from 300px) when the sidebar turns into hamburger. If we don't then the sidebar still "takes up space" when the browser window is made smaller */
 
 h1,
 h2,
@@ -28,11 +34,23 @@ h4 {
     letter-spacing: 0.5px;
 }
 
+
+
 #search {
-    background-color: #fff;
-    width: 230px;
+    width: 250px;
     margin: 2em 1.5em;
-    padding: 0 0.8em;
+    border-bottom: 1px solid black;
+}
+
+#search::placeholder {
+        color: black;
+
+}
+
+#sidebar__searchIcon {
+    position: absolute;
+    top: 350px;
+    right: 0025px;
 }
 
 
@@ -68,23 +86,15 @@ footer {
     padding-left: 0px !important;
 }
 
-<<<<<<< HEAD
-#slide-out {
-    text-transform: uppercase;
-    color: #fff;
-}
 
 .side-nav li {
-    border-bottom: 1px solid #fff;
-    border-top: 1px solid #fff;
 }
 #slide-out {
-    text-transform: uppercase;
-    color: #fff;
+    color: black;
+    letter-spacing: 0.5px;
+    font-weight: 400;
 }
 .side-nav li {
-border-bottom: 1px solid #fff;
-border-top:1px solid #fff;
 }
 
 .sidebar-footer {
@@ -109,6 +119,12 @@ nav {
     height: auto;
 }
 
+#nav-mobile li {
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 200;
+}
+
 /* End of Sidebar style*/
 
 /* Start of Login Page Style */
@@ -121,6 +137,8 @@ nav {
 
 #studentLoginPage__logo {
     margin: 100px 0px 25px 0px;
+    width: 75%;
+    max-width: 400px;
 }
 
 #studentLoginPage__form {
@@ -142,9 +160,21 @@ nav {
 
 
 /* Start of Account Settings Style */
+#acctSettForm__cont {
+    text-align: center;
+}
 
-.save {
-    float: right;
+#acctSettForm__logo {
+    margin: 10px 0px 40px 0px;
+}
+
+
+#acctSettForm__browse {
+    margin-bottom: 20px;
+}
+
+#acctSettForm__save {
+    margin-top:30px;
 }
 
 
