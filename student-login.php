@@ -6,7 +6,7 @@ require_once "includes/header.php";
 ?>
 <body>
     
-    <main id="loginPage__mainCont">
+    <main class="no-sidebar">
     <div class="container">  
         <div class="row" id="acctSettForm__cont">
             

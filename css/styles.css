@@ -19,9 +19,6 @@ font-family: 'Montserrat', sans-serif;
 /* Headers Font*/
 
 /* We need to add a media query reducing the left padding of "main" to 0px (from 300px) when the sidebar turns into hamburger. If we don't then the sidebar still "takes up space" when the browser window is made smaller */
-main {
-    /*padding-left: 300px !important;*/
-}
 
 h1,
 h2,
@@ -65,6 +62,10 @@ footer {
 .bar-color {
     background-color: #73ddd9;
     background-image: linear-gradient( #73ddd9, #50e8cf);
+}
+
+.no-sidebar {
+    padding-left: 0px !important;
 }
 
 <<<<<<< HEAD

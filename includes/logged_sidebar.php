@@ -1,4 +1,5 @@
     <!--Sidebar-->
+<div>
     <ul class="collapsible side-nav fixed bar-color" id="slide-out" data-collapsible="accordion"> 
        <img class="logo" src="img/humber_logo.png" alt="Humber Logo image"> 
        <img class="circle" id="icon" src="img/yuna.jpg" alt="Humber Logo image">
@@ -15,3 +16,4 @@
     </ul>
     <a href="#" data-activates="slide-out" class="button-collapse"> <i class="material-icons">menu</i></a>
     <div class="sidebar-footer"> &copy; Humber College 2017</div>
+</div>
