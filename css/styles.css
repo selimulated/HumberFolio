@@ -105,22 +105,29 @@ border-top:1px solid #fff;
 
 /* Start of Login Page Style */
 
-#loginPage__mainCont { 
+#studentLoginPage__mainCont { 
     padding-left: 0px !important;
-    border: 1px solid red;
+    text-align: center;
+    
 }
 
-#loginPage__form {
-    width:75%;
+#studentLoginPage__logo {
+    margin: 100px 0px 25px 0px;
+}
+
+#studentLoginPage__form {
+    width:50%;
     margin: 0 auto;
-    border: 1px solid orange;
 }
 
-#studentLoginForm__passwPrompt
-
-#test {
-    border: 1px solid red;
+#studentLoginForm__passwField {
+    margin-bottom: 20px;
 }
+
+#studentLoginForm__passwPrompt {
+    color: #898989;
+}
+
 
 
 /* End of Login Page Style */

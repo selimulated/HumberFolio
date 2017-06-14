@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="./css/materialize.min.css">
         <script type="text/javascript" src="./js/materialize.min.js"></script>
         
-        <!--Own stylesheet-->
+        <!--Own stylesheet & scripts-->
         <link rel="stylesheet" href="./css/styles.css">
         
     </head>
