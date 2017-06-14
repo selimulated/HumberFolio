@@ -19,19 +19,34 @@
                 <circle cx="24" cy="12" r="3" fill="white" />
                 <circle cx="34" cy="12" r="3" fill="white" />
             </svg>
-            <img class="thumbnail-small-image" src="http://materializecss.com/images/sample-1.jpg">
+            <div class="thumb-container">
+
+              <!--project hero image--> <img class="thumbnail-small-image" src="http://materializecss.com/images/sample-1.jpg">
+
+              <div class="overlay">
+                <div class="center text"><i class="small material-icons">visibility</i></div>
+              </div>
+
+            </div>
             <span class="thumbnail-small-footer-background valign-wrapper card-title thumbnail-small-footer">
                 <div class="container thumbnail-small-footer-content-container">
                     <div class="row valign-wrapper">
                         <div class="col s2 thumbnail-small-footer-image-container valign-wrapper">
-                          <img class="left thumbnail-small-footer-image" src="http://materializecss.com/images/yuna.jpg">
+
+                          <!--student profile pic--> <img class="left thumbnail-small-footer-image" src="http://materializecss.com/images/yuna.jpg">
+
                         </div>
                         <div class="col s10 thumbnail-small-footer-text-container">
                           <div class="col s12 thumbnail-small-footer-text-header-container">
-                              <p class="left thumbnail-small-footer-text thumbnail-small-footer-text-header">Dennis Nedry</p>
+
+                          <!--student profile name--> <p class="left thumbnail-small-footer-text thumbnail-small-footer-text-header">Dennis Nedry</p>
+
                           </div>
                           <div class="col s12 thumbnail-small-footer-text-description-container">
+
+                              <!--student description-->
                               <p class="left thumbnail-small-footer-text thumbnail-small-footer-text-description">Text describing the student</p>
+
                           </div>
                         </div>
                     </div>
