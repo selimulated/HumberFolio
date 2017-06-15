@@ -18,7 +18,7 @@ Our own javascript is currently broken up into different files (i.e. "menu.js") 
 
 - Images used (found in "img")
 
-- Finally, there's a "TEMPLATE.php" file that we've used to create new pages. Simply add in your content where indicated and it should work nicely with including the header, footer, and sidebar.
+- Finally, there's a "TEMPLATE.php" file that we've used to create new pages. Simply add in your content where indicated and it works nicely with including the header, footer, and sidebar. If you need to make a new page simply place your content in the space where indicated.
 
 David unfortunately had something come up so this commit does not have his code yet but it will be along shortly. All the data included is placeholder data. There are a couple styling tweaks that still need to be done but these changes are minor. The CSS needs to be indexed, organized, and id/class names need to be adjusted as well (which will happen in a commit in the near future). Please don't hestiate to contact any of myself, Selim, David, or Natasha if you have any questions, concerns, or need anything from our end.
 

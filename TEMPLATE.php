@@ -12,7 +12,7 @@ require_once "includes/header.php";
     <main>
     <div class="container">  
         <div class="row">
-            <!--CONTENT GOES IN HERE: Please use the Materialize grid system!-->
+            <!--CONTENT GOES IN HERE: Please use the Materialize grid system-->
     
             
             
