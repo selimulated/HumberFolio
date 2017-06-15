@@ -11,9 +11,10 @@ require_once "includes/header.php";
     
     <main>
     <div class="container">  
-        <div class="row">
+        <div class="row" id="projectsForm__cont">
             
             <!--CONTENT GOES IN HERE: Please use the Materialize grid system!-->
+                <img src="img/humber-logo-webDevPortal.png" class="portalLogo">
     
             <div class="col s12 myProjectsForm__header">
                 <h2>Mia's Projects</h2>
@@ -38,7 +39,7 @@ require_once "includes/header.php";
                             <td>Img ImgImgImgImgImgImgImg</td>
                             <td>
                                   <input name="group1" type="radio" id="test1" />
-                                  <label for="test1">Yes</label>
+                                  <label for="test1"></label>
                             
                             </td>
                             <td>
@@ -50,10 +51,10 @@ require_once "includes/header.php";
                     </tbody>
                 </table>
                     
-                    <button>Add Project</button>
+                    <button class="btn">Add Project</button>
                     
                 <div class="col s12">
-                    <input type="submit" value="Save Changes" class="save">
+                    <input type="submit" value="Save Changes" class="right btn">
                     </div>
                 </form>    
             </div>

@@ -16,7 +16,7 @@ require_once "includes/header.php";
             <!--CONTENT GOES IN HERE: Please use the Materialize grid system!-->
     
             <div class="col s12">
-                <img src="img/humber-logo-webDevPortal.png" id="acctSettForm__logo">
+                <img src="img/humber-logo-webDevPortal.png" class="portalLogo">
             <form>
                 
                     <div class="col s2">

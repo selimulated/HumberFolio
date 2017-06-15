@@ -164,7 +164,7 @@ nav {
     text-align: center;
 }
 
-#acctSettForm__logo {
+.portalLogo {
     margin: 10px 0px 40px 0px;
 }
 
@@ -212,8 +212,9 @@ nav {
     display: inline;
 }
 
-.save {
-    float: right;
+
+#projectsForm__cont {
+    text-align: center;
 }
 
 /* End of My Projects Style*/
@@ -242,6 +243,10 @@ nav {
 
 .save {
     float: right;
+}
+
+#projectSettingsForm__cont {
+    text-align: center;
 }
 
 /* End of Project Settings Style */

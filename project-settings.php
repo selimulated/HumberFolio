@@ -11,10 +11,11 @@ require_once "includes/header.php";
     
     <main>
     <div class="container">  
-        <div class="row">
+        <div class="row" id="projectSettingsForm__cont">
             
             <!--CONTENT GOES IN HERE: Please use the Materialize grid system!-->
-    
+                <img src="img/humber-logo-webDevPortal.png" class="portalLogo">
+            
             <div class="col s12 myProjectsForm__header">
                 <h2>Project X</h2>
             </div>
@@ -73,7 +74,7 @@ require_once "includes/header.php";
                     </tbody>
                 </table>
                     
-                    <button>Add Image</button>
+                    <button class="btn left">Add Image</button>
                     
                     <h4>Tags</h4>
                       <input type="checkbox" id="css" />
@@ -89,7 +90,7 @@ require_once "includes/header.php";
                       <label for="jquery">jQuery</label>
                     
                 <div class="col s12">
-                    <input type="submit" value="Save Changes" class="save">
+                    <input type="submit" value="Save Changes" class="right btn">
                     </div>
                 </form>    
             </div>
